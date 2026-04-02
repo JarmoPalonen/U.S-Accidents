@@ -1,1 +1,0 @@
-Place the US Accidents dataset .csv file in this folder locally, it's ignored by git.
