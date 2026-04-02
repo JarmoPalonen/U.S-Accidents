@@ -8,6 +8,16 @@ Members:
 - Tiina Serkosalmi
 - Heikki Virtanen
 
+## Information About The Project
+- The main goal of this project was to analyze various trends regarding traffic accidents in the U.S
+- Dataset of U.S traffic accidents containing around 7.7 million records with 47 attributes
+  
+#### Tools utilized:
+- VSCode
+- MongoDB
+- Apache Spark
+- GitHub
+
 ## Setup & Installation
 ### Prerequisites:
 
@@ -58,5 +68,3 @@ Go to System Properties -> Advanced -> Environment variables and set:
 - Step 1: Activate your Conda Environment
 - Step 2: Run git clone https://github.com/JarmoPalonen/U.S-Accidents or just download the files
 - Step 3: Open the folder in your IDE and run the Final_Code.ipynb from the main folder
-
-p
