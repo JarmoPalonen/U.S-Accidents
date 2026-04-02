@@ -25,7 +25,7 @@ Members:
   - Version: JDK 17
   - Download link: https://adoptium.net/en-GB/temurin/releases?package=jdk&version=17&os=windows&arch=x64
     
-#### Apache Spark
+#### Apache Spark Manual Installation (if not using a virtual environment like Conda)
   - Version 3.5.x
   - Download link: https://spark.apache.org/downloads.html
   - Extract to for example C:\spark
@@ -54,15 +54,15 @@ Go to System Properties -> Advanced -> Environment variables and set:
 | -------- | ------- |
 | PYSPARK_PYTHON  | Path to your Python executable (3.11)    |
 | JAVA_HOME | The folder where you extracted Java Development Kit to     |
-| PYSPARK_PYTHON    | Path to your Python executable (3.11)    |
+| HADOOP HOME    | C:\hadoop   |
   
 ##### MongoDB
-- Download link: https://www.mongodb.com/try/download/community-kubernetes-operator
+- Download link: http://mongodb.com/try/download/community
 
 #### Dataset
 - Download the U.S. Accidents (March 23) dataset
 - Download link: https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents
-  - Place the US_Accidents_March23.csv file inside the /data folder.
+  - Place the US_Accidents_March23.csv file inside the main folder.
 
 #### How to Run the Project
 - Step 1: Activate your Conda Environment
