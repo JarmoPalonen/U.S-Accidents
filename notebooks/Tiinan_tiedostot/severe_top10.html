@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_843a257abbbbd81400e203cdc7cc1e05 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_843a257abbbbd81400e203cdc7cc1e05" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_843a257abbbbd81400e203cdc7cc1e05 = L.map(
+                "map_843a257abbbbd81400e203cdc7cc1e05",
+                {
+                    center: [39.5, -98.35],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3e91afe27147eba7b015cdd1a2133363 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_3e91afe27147eba7b015cdd1a2133363.addTo(map_843a257abbbbd81400e203cdc7cc1e05);
+        
+    
+            var circle_marker_76e707a1b72ee878c586ef0f56174fdb = L.circleMarker(
+                [34.029212654948836, -118.29028491321219],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_843a257abbbbd81400e203cdc7cc1e05);
+        
+    
+            var marker_45c69e5713461c764e0dc85a6ed9094a = L.marker(
+                [34.029212654948836, -118.29028491321219],
+                {
+}
+            ).addTo(map_843a257abbbbd81400e203cdc7cc1e05);
+        
+    
+            var div_icon_198d559ce3fe943371b4f15ad922916e = L.divIcon({
+  "html": "\n                \u003cdiv style=\"\n                    position: relative;\n                    bottom: 20px;      /* nostaa tekstin palluran yl\u00e4puolelle */\n                    left: 12px;        /* siirt\u00e4\u00e4 hieman oikealle */\n                    font-size: 12px;\n                    font-weight: normal;\n                    color: black;\n                    white-space: nowrap;  /* pakottaa yhdelle riville */\n                    background-color: rgba(255,255,255,0.8);\n                    padding: 2px 4px;\n                    border-radius: 3px;\n                \"\u003e\n                    Los Angeles: 35866\n                \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+                marker_45c69e5713461c764e0dc85a6ed9094a.setIcon(div_icon_198d559ce3fe943371b4f15ad922916e);
+            
+    
+            var circle_marker_b2d4025db53d42a43c9ee8553eb00e37 = L.circleMarker(
+                [32.8221456642782, -96.78736719052552],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_843a257abbbbd81400e203cdc7cc1e05);
+        
+    
+            var marker_43b9fc65f50e9e57b195f067b3893b83 = L.marker(
+                [32.8221456642782, -96.78736719052552],
+                {
+}
+            ).addTo(map_843a257abbbbd81400e203cdc7cc1e05);
+        
+    
+            var div_icon_60dc31f0190a10803d6413a6c3b1a765 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"\n                    position: relative;\n                    bottom: 20px;      /* nostaa tekstin palluran yl\u00e4puolelle */\n                    left: 12px;        /* siirt\u00e4\u00e4 hieman oikealle */\n                    font-size: 12px;\n                    font-weight: normal;\n                    color: black;\n                    white-space: nowrap;  /* pakottaa yhdelle riville */\n                    background-color: rgba(255,255,255,0.8);\n                    padding: 2px 4px;\n                    border-radius: 3px;\n                \"\u003e\n                    Dallas: 34223\n                \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+                marker_43b9fc65f50e9e57b195f067b3893b83.setIcon(div_icon_60dc31f0190a10803d6413a6c3b1a765);
+            
+    
+            var circle_marker_8164ab250ea256e5c8c5dd460a1ffa96 = L.circleMarker(
+                [33.787141915579454, -84.39915064634197],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_843a257abbbbd81400e203cdc7cc1e05);
+        
+    
+            var marker_511ff3f7ede93f6d943cc9a43c729419 = L.marker(
+                [33.787141915579454, -84.39915064634197],
+                {
+}
+            ).addTo(map_843a257abbbbd81400e203cdc7cc1e05);
+        
+    
+            var div_icon_dd239ee7224094dc971428a065cf86cb = L.divIcon({
+  "html": "\n                \u003cdiv style=\"\n                    position: relative;\n                    bottom: 20px;      /* nostaa tekstin palluran yl\u00e4puolelle */\n                    left: 12px;        /* siirt\u00e4\u00e4 hieman oikealle */\n                    font-size: 12px;\n                    font-weight: normal;\n                    color: black;\n                    white-space: nowrap;  /* pakottaa yhdelle riville */\n                    background-color: rgba(255,255,255,0.8);\n                    padding: 2px 4px;\n                    border-radius: 3px;\n                \"\u003e\n                    Atlanta: 33861\n                \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+                marker_511ff3f7ede93f6d943cc9a43c729419.setIcon(div_icon_dd239ee7224094dc971428a065cf86cb);
+            
+    
+            var circle_marker_0dcc8e60f4acd6a750003144dddf8b92 = L.circleMarker(
+                [29.786312210232865, -95.39036011368184],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_843a257abbbbd81400e203cdc7cc1e05);
+        
+    
+            var marker_9e6a877d47ea850ca3405b4d09865773 = L.marker(
+                [29.786312210232865, -95.39036011368184],
+                {
+}
+            ).addTo(map_843a257abbbbd81400e203cdc7cc1e05);
+        
+    
+            var div_icon_7d0853955b2a72804b25e0e6455840a5 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"\n                    position: relative;\n                    bottom: 20px;      /* nostaa tekstin palluran yl\u00e4puolelle */\n                    left: 12px;        /* siirt\u00e4\u00e4 hieman oikealle */\n                    font-size: 12px;\n                    font-weight: normal;\n                    color: black;\n                    white-space: nowrap;  /* pakottaa yhdelle riville */\n                    background-color: rgba(255,255,255,0.8);\n                    padding: 2px 4px;\n                    border-radius: 3px;\n                \"\u003e\n                    Houston: 30521\n                \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+                marker_9e6a877d47ea850ca3405b4d09865773.setIcon(div_icon_7d0853955b2a72804b25e0e6455840a5);
+            
+    
+            var circle_marker_6d0c89eabf3151103a0e3ac272f7a629 = L.circleMarker(
+                [41.844477794393015, -87.67176414322229],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_843a257abbbbd81400e203cdc7cc1e05);
+        
+    
+            var marker_8179c9597a2d0f303c8c1fbacd29c48a = L.marker(
+                [41.844477794393015, -87.67176414322229],
+                {
+}
+            ).addTo(map_843a257abbbbd81400e203cdc7cc1e05);
+        
+    
+            var div_icon_c79ef5e5b57da1d0cef3f1c61beac3a5 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"\n                    position: relative;\n                    bottom: 20px;      /* nostaa tekstin palluran yl\u00e4puolelle */\n                    left: 12px;        /* siirt\u00e4\u00e4 hieman oikealle */\n                    font-size: 12px;\n                    font-weight: normal;\n                    color: black;\n                    white-space: nowrap;  /* pakottaa yhdelle riville */\n                    background-color: rgba(255,255,255,0.8);\n                    padding: 2px 4px;\n                    border-radius: 3px;\n                \"\u003e\n                    Chicago: 18867\n                \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+                marker_8179c9597a2d0f303c8c1fbacd29c48a.setIcon(div_icon_c79ef5e5b57da1d0cef3f1c61beac3a5);
+            
+    
+            var circle_marker_2d091ec7c587b53288ea29cc3c2befd0 = L.circleMarker(
+                [25.867768847278704, -80.26455802550282],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_843a257abbbbd81400e203cdc7cc1e05);
+        
+    
+            var marker_9ca15cc0080963f97392438f6045a410 = L.marker(
+                [25.867768847278704, -80.26455802550282],
+                {
+}
+            ).addTo(map_843a257abbbbd81400e203cdc7cc1e05);
+        
+    
+            var div_icon_3e7dcc805cd3cf8c95320944736373b4 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"\n                    position: relative;\n                    bottom: 20px;      /* nostaa tekstin palluran yl\u00e4puolelle */\n                    left: 12px;        /* siirt\u00e4\u00e4 hieman oikealle */\n                    font-size: 12px;\n                    font-weight: normal;\n                    color: black;\n                    white-space: nowrap;  /* pakottaa yhdelle riville */\n                    background-color: rgba(255,255,255,0.8);\n                    padding: 2px 4px;\n                    border-radius: 3px;\n                \"\u003e\n                    Miami: 16842\n                \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+                marker_9ca15cc0080963f97392438f6045a410.setIcon(div_icon_3e7dcc805cd3cf8c95320944736373b4);
+            
+    
+            var circle_marker_945934b6d86a137673bea20c42990be3 = L.circleMarker(
+                [30.341511080690395, -81.6791131973499],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_843a257abbbbd81400e203cdc7cc1e05);
+        
+    
+            var marker_782a8c285701d082ce1fd81cf2aeb0fa = L.marker(
+                [30.341511080690395, -81.6791131973499],
+                {
+}
+            ).addTo(map_843a257abbbbd81400e203cdc7cc1e05);
+        
+    
+            var div_icon_cc4e7af3b1904c65bea203634dda06c5 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"\n                    position: relative;\n                    bottom: 20px;      /* nostaa tekstin palluran yl\u00e4puolelle */\n                    left: 12px;        /* siirt\u00e4\u00e4 hieman oikealle */\n                    font-size: 12px;\n                    font-weight: normal;\n                    color: black;\n                    white-space: nowrap;  /* pakottaa yhdelle riville */\n                    background-color: rgba(255,255,255,0.8);\n                    padding: 2px 4px;\n                    border-radius: 3px;\n                \"\u003e\n                    Jacksonville: 16065\n                \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+                marker_782a8c285701d082ce1fd81cf2aeb0fa.setIcon(div_icon_cc4e7af3b1904c65bea203634dda06c5);
+            
+    
+            var circle_marker_e83f33bf520eb828edf09fe638d750dd = L.circleMarker(
+                [39.76691192061491, -104.57236378856065],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_843a257abbbbd81400e203cdc7cc1e05);
+        
+    
+            var marker_e9e373fddcc738721f53312d9d07f4cd = L.marker(
+                [39.76691192061491, -104.57236378856065],
+                {
+}
+            ).addTo(map_843a257abbbbd81400e203cdc7cc1e05);
+        
+    
+            var div_icon_8ee9044717d91b728f2e1b28c288fb0b = L.divIcon({
+  "html": "\n                \u003cdiv style=\"\n                    position: relative;\n                    bottom: 20px;      /* nostaa tekstin palluran yl\u00e4puolelle */\n                    left: 12px;        /* siirt\u00e4\u00e4 hieman oikealle */\n                    font-size: 12px;\n                    font-weight: normal;\n                    color: black;\n                    white-space: nowrap;  /* pakottaa yhdelle riville */\n                    background-color: rgba(255,255,255,0.8);\n                    padding: 2px 4px;\n                    border-radius: 3px;\n                \"\u003e\n                    Denver: 12577\n                \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+                marker_e9e373fddcc738721f53312d9d07f4cd.setIcon(div_icon_8ee9044717d91b728f2e1b28c288fb0b);
+            
+    
+            var circle_marker_f97ce523810bb6260d99eddc270fa33f = L.circleMarker(
+                [44.9562118276895, -93.2915537124237],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_843a257abbbbd81400e203cdc7cc1e05);
+        
+    
+            var marker_eedbdb4fd712caf37bdd30e2a41cb27f = L.marker(
+                [44.9562118276895, -93.2915537124237],
+                {
+}
+            ).addTo(map_843a257abbbbd81400e203cdc7cc1e05);
+        
+    
+            var div_icon_5b7ac2b8328c4d3e50567c144ba148d2 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"\n                    position: relative;\n                    bottom: 20px;      /* nostaa tekstin palluran yl\u00e4puolelle */\n                    left: 12px;        /* siirt\u00e4\u00e4 hieman oikealle */\n                    font-size: 12px;\n                    font-weight: normal;\n                    color: black;\n                    white-space: nowrap;  /* pakottaa yhdelle riville */\n                    background-color: rgba(255,255,255,0.8);\n                    padding: 2px 4px;\n                    border-radius: 3px;\n                \"\u003e\n                    Minneapolis: 12457\n                \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+                marker_eedbdb4fd712caf37bdd30e2a41cb27f.setIcon(div_icon_5b7ac2b8328c4d3e50567c144ba148d2);
+            
+    
+            var circle_marker_29345fd638ce8e5458fd4b6e9bee27b9 = L.circleMarker(
+                [32.8043236595672, -117.14250234488809],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_843a257abbbbd81400e203cdc7cc1e05);
+        
+    
+            var marker_1a2a54b0fb222c1a5d4b57dc0599f32a = L.marker(
+                [32.8043236595672, -117.14250234488809],
+                {
+}
+            ).addTo(map_843a257abbbbd81400e203cdc7cc1e05);
+        
+    
+            var div_icon_a8ce719f6fa54c58cbe9e0ed7d0a6a2d = L.divIcon({
+  "html": "\n                \u003cdiv style=\"\n                    position: relative;\n                    bottom: 20px;      /* nostaa tekstin palluran yl\u00e4puolelle */\n                    left: 12px;        /* siirt\u00e4\u00e4 hieman oikealle */\n                    font-size: 12px;\n                    font-weight: normal;\n                    color: black;\n                    white-space: nowrap;  /* pakottaa yhdelle riville */\n                    background-color: rgba(255,255,255,0.8);\n                    padding: 2px 4px;\n                    border-radius: 3px;\n                \"\u003e\n                    San Diego: 12131\n                \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+                marker_1a2a54b0fb222c1a5d4b57dc0599f32a.setIcon(div_icon_a8ce719f6fa54c58cbe9e0ed7d0a6a2d);
+            
+    
+            tile_layer_3e91afe27147eba7b015cdd1a2133363.addTo(map_843a257abbbbd81400e203cdc7cc1e05);
+        
+    
+                marker_45c69e5713461c764e0dc85a6ed9094a.setIcon(div_icon_198d559ce3fe943371b4f15ad922916e);
+            
+    
+                marker_43b9fc65f50e9e57b195f067b3893b83.setIcon(div_icon_60dc31f0190a10803d6413a6c3b1a765);
+            
+    
+                marker_511ff3f7ede93f6d943cc9a43c729419.setIcon(div_icon_dd239ee7224094dc971428a065cf86cb);
+            
+    
+                marker_9e6a877d47ea850ca3405b4d09865773.setIcon(div_icon_7d0853955b2a72804b25e0e6455840a5);
+            
+    
+                marker_8179c9597a2d0f303c8c1fbacd29c48a.setIcon(div_icon_c79ef5e5b57da1d0cef3f1c61beac3a5);
+            
+    
+                marker_9ca15cc0080963f97392438f6045a410.setIcon(div_icon_3e7dcc805cd3cf8c95320944736373b4);
+            
+    
+                marker_782a8c285701d082ce1fd81cf2aeb0fa.setIcon(div_icon_cc4e7af3b1904c65bea203634dda06c5);
+            
+    
+                marker_e9e373fddcc738721f53312d9d07f4cd.setIcon(div_icon_8ee9044717d91b728f2e1b28c288fb0b);
+            
+    
+                marker_eedbdb4fd712caf37bdd30e2a41cb27f.setIcon(div_icon_5b7ac2b8328c4d3e50567c144ba148d2);
+            
+    
+                marker_1a2a54b0fb222c1a5d4b57dc0599f32a.setIcon(div_icon_a8ce719f6fa54c58cbe9e0ed7d0a6a2d);
+            
+</script>
+</html>

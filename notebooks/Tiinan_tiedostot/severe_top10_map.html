@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_e1b9864aac28a9ecb43fd073ce81c66e {
+                #map_f1a84278f9edc0c26f00425fa7e7305b {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -54,14 +54,14 @@
 <body>
     
     
-            <div class="folium-map" id="map_e1b9864aac28a9ecb43fd073ce81c66e" ></div>
+            <div class="folium-map" id="map_f1a84278f9edc0c26f00425fa7e7305b" ></div>
         
 </body>
 <script>
     
     
-            var map_e1b9864aac28a9ecb43fd073ce81c66e = L.map(
-                "map_e1b9864aac28a9ecb43fd073ce81c66e",
+            var map_f1a84278f9edc0c26f00425fa7e7305b = L.map(
+                "map_f1a84278f9edc0c26f00425fa7e7305b",
                 {
                     center: [39.5, -98.35],
                     crs: L.CRS.EPSG3857,
@@ -78,7 +78,7 @@
 
         
     
-            var tile_layer_ef0c03914fd2c542a327e87fc7d9d8e3 = L.tileLayer(
+            var tile_layer_9cfd040702f28b63b63c0a4b116e42a5 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -95,340 +95,280 @@
             );
         
     
-            tile_layer_ef0c03914fd2c542a327e87fc7d9d8e3.addTo(map_e1b9864aac28a9ecb43fd073ce81c66e);
+            tile_layer_9cfd040702f28b63b63c0a4b116e42a5.addTo(map_f1a84278f9edc0c26f00425fa7e7305b);
         
     
-            var circle_marker_ea4e549c59c30eca5a27b386bba7bc2c = L.circleMarker(
+            var circle_marker_3790d940109cdb40ac9bfbb798a6d364 = L.circleMarker(
                 [34.029212654948836, -118.29028491321219],
                 {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
-            ).addTo(map_e1b9864aac28a9ecb43fd073ce81c66e);
+            ).addTo(map_f1a84278f9edc0c26f00425fa7e7305b);
         
     
-        var popup_72def77fe0c898e647370521d5244b05 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_b0ceb17aed4793e54ef51e2e645e0b2a = $(`<div id="html_b0ceb17aed4793e54ef51e2e645e0b2a" style="width: 100.0%; height: 100.0%;">City: Los Angeles<br>Severity 3–4 accidents: 35866</div>`)[0];
-                popup_72def77fe0c898e647370521d5244b05.setContent(html_b0ceb17aed4793e54ef51e2e645e0b2a);
-            
-        
-
-        circle_marker_ea4e549c59c30eca5a27b386bba7bc2c.bindPopup(popup_72def77fe0c898e647370521d5244b05)
-        ;
-
-        
-    
-    
-            circle_marker_ea4e549c59c30eca5a27b386bba7bc2c.bindTooltip(
-                `<div>
-                     Los Angeles – 35866 severe accidents
-                 </div>`,
+            var marker_4873301ca9853a2af107b7de7c1d43d9 = L.marker(
+                [34.029212654948836, -118.29028491321219],
                 {
-  "sticky": true,
 }
-            );
+            ).addTo(map_f1a84278f9edc0c26f00425fa7e7305b);
         
     
-            var circle_marker_44d3422c4bdf5efd06d1f7d243bd620b = L.circleMarker(
+            var div_icon_2c94140f96dbdfd0af7bcd7e5ae50110 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 12px; color: black;\"\u003e\u003cb\u003eLos Angeles: 35866\u003c/b\u003e\u003c/div\u003e",
+  "iconSize": [150, 36],
+  "iconAnchor": [0, 0],
+  "className": "empty",
+});
+        
+    
+                marker_4873301ca9853a2af107b7de7c1d43d9.setIcon(div_icon_2c94140f96dbdfd0af7bcd7e5ae50110);
+            
+    
+            var circle_marker_4e01cbb4564b9c6ab6301483058a6271 = L.circleMarker(
                 [32.8221456642782, -96.78736719052552],
                 {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
-            ).addTo(map_e1b9864aac28a9ecb43fd073ce81c66e);
+            ).addTo(map_f1a84278f9edc0c26f00425fa7e7305b);
         
     
-        var popup_22b6542a323767456c8aad087a090394 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_3f585bde6b4b0df83f2a9149fc161bfa = $(`<div id="html_3f585bde6b4b0df83f2a9149fc161bfa" style="width: 100.0%; height: 100.0%;">City: Dallas<br>Severity 3–4 accidents: 34223</div>`)[0];
-                popup_22b6542a323767456c8aad087a090394.setContent(html_3f585bde6b4b0df83f2a9149fc161bfa);
-            
-        
-
-        circle_marker_44d3422c4bdf5efd06d1f7d243bd620b.bindPopup(popup_22b6542a323767456c8aad087a090394)
-        ;
-
-        
-    
-    
-            circle_marker_44d3422c4bdf5efd06d1f7d243bd620b.bindTooltip(
-                `<div>
-                     Dallas – 34223 severe accidents
-                 </div>`,
+            var marker_b0aa5e73b75a642fd1266090c230a2c6 = L.marker(
+                [32.8221456642782, -96.78736719052552],
                 {
-  "sticky": true,
 }
-            );
+            ).addTo(map_f1a84278f9edc0c26f00425fa7e7305b);
         
     
-            var circle_marker_5417b5a3cdee80e9b6ae9232ecc7a54c = L.circleMarker(
+            var div_icon_89d0804a5f8e43b13ee393e5c52a9360 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 12px; color: black;\"\u003e\u003cb\u003eDallas: 34223\u003c/b\u003e\u003c/div\u003e",
+  "iconSize": [150, 36],
+  "iconAnchor": [0, 0],
+  "className": "empty",
+});
+        
+    
+                marker_b0aa5e73b75a642fd1266090c230a2c6.setIcon(div_icon_89d0804a5f8e43b13ee393e5c52a9360);
+            
+    
+            var circle_marker_2348ab080967430afa5572699f169198 = L.circleMarker(
                 [33.787141915579454, -84.39915064634197],
                 {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
-            ).addTo(map_e1b9864aac28a9ecb43fd073ce81c66e);
+            ).addTo(map_f1a84278f9edc0c26f00425fa7e7305b);
         
     
-        var popup_1b6781bd2e156ee87249435b937de3b8 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_541fec0fb689fb2af7bc1c2750846258 = $(`<div id="html_541fec0fb689fb2af7bc1c2750846258" style="width: 100.0%; height: 100.0%;">City: Atlanta<br>Severity 3–4 accidents: 33861</div>`)[0];
-                popup_1b6781bd2e156ee87249435b937de3b8.setContent(html_541fec0fb689fb2af7bc1c2750846258);
-            
-        
-
-        circle_marker_5417b5a3cdee80e9b6ae9232ecc7a54c.bindPopup(popup_1b6781bd2e156ee87249435b937de3b8)
-        ;
-
-        
-    
-    
-            circle_marker_5417b5a3cdee80e9b6ae9232ecc7a54c.bindTooltip(
-                `<div>
-                     Atlanta – 33861 severe accidents
-                 </div>`,
+            var marker_feeeb9e3e8d90f25017287a022df8ecd = L.marker(
+                [33.787141915579454, -84.39915064634197],
                 {
-  "sticky": true,
 }
-            );
+            ).addTo(map_f1a84278f9edc0c26f00425fa7e7305b);
         
     
-            var circle_marker_71d573853cae4d3fd5dd7a3ea9917f51 = L.circleMarker(
+            var div_icon_d27768a90e667c7520f88e2d744cada3 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 12px; color: black;\"\u003e\u003cb\u003eAtlanta: 33861\u003c/b\u003e\u003c/div\u003e",
+  "iconSize": [150, 36],
+  "iconAnchor": [0, 0],
+  "className": "empty",
+});
+        
+    
+                marker_feeeb9e3e8d90f25017287a022df8ecd.setIcon(div_icon_d27768a90e667c7520f88e2d744cada3);
+            
+    
+            var circle_marker_b3578d60c75c6ec3f42a6f19d2aae665 = L.circleMarker(
                 [29.786312210232865, -95.39036011368184],
                 {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
-            ).addTo(map_e1b9864aac28a9ecb43fd073ce81c66e);
+            ).addTo(map_f1a84278f9edc0c26f00425fa7e7305b);
         
     
-        var popup_4fdebed363ce8be24caf495a333dd3ac = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_0e63346f42a1dc4e0cf61d57f59f9e4a = $(`<div id="html_0e63346f42a1dc4e0cf61d57f59f9e4a" style="width: 100.0%; height: 100.0%;">City: Houston<br>Severity 3–4 accidents: 30521</div>`)[0];
-                popup_4fdebed363ce8be24caf495a333dd3ac.setContent(html_0e63346f42a1dc4e0cf61d57f59f9e4a);
-            
-        
-
-        circle_marker_71d573853cae4d3fd5dd7a3ea9917f51.bindPopup(popup_4fdebed363ce8be24caf495a333dd3ac)
-        ;
-
-        
-    
-    
-            circle_marker_71d573853cae4d3fd5dd7a3ea9917f51.bindTooltip(
-                `<div>
-                     Houston – 30521 severe accidents
-                 </div>`,
+            var marker_34d1de82e77430a0035a5c904517cad3 = L.marker(
+                [29.786312210232865, -95.39036011368184],
                 {
-  "sticky": true,
 }
-            );
+            ).addTo(map_f1a84278f9edc0c26f00425fa7e7305b);
         
     
-            var circle_marker_e63237f7bffc2cfbdd513db4be2ae1de = L.circleMarker(
+            var div_icon_9f534c48908afeaa361b58e3c0bb81ce = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 12px; color: black;\"\u003e\u003cb\u003eHouston: 30521\u003c/b\u003e\u003c/div\u003e",
+  "iconSize": [150, 36],
+  "iconAnchor": [0, 0],
+  "className": "empty",
+});
+        
+    
+                marker_34d1de82e77430a0035a5c904517cad3.setIcon(div_icon_9f534c48908afeaa361b58e3c0bb81ce);
+            
+    
+            var circle_marker_0bf018999ed9bd39c43d93a480f09f65 = L.circleMarker(
                 [41.844477794393015, -87.67176414322229],
                 {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
-            ).addTo(map_e1b9864aac28a9ecb43fd073ce81c66e);
+            ).addTo(map_f1a84278f9edc0c26f00425fa7e7305b);
         
     
-        var popup_0d5998f62b5c2f16ab0094b573caedfd = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_0ef5f7b03861a5aeb154bb63da5cb742 = $(`<div id="html_0ef5f7b03861a5aeb154bb63da5cb742" style="width: 100.0%; height: 100.0%;">City: Chicago<br>Severity 3–4 accidents: 18867</div>`)[0];
-                popup_0d5998f62b5c2f16ab0094b573caedfd.setContent(html_0ef5f7b03861a5aeb154bb63da5cb742);
-            
-        
-
-        circle_marker_e63237f7bffc2cfbdd513db4be2ae1de.bindPopup(popup_0d5998f62b5c2f16ab0094b573caedfd)
-        ;
-
-        
-    
-    
-            circle_marker_e63237f7bffc2cfbdd513db4be2ae1de.bindTooltip(
-                `<div>
-                     Chicago – 18867 severe accidents
-                 </div>`,
+            var marker_a54909623c9a54cc7f98b2b721f065c0 = L.marker(
+                [41.844477794393015, -87.67176414322229],
                 {
-  "sticky": true,
 }
-            );
+            ).addTo(map_f1a84278f9edc0c26f00425fa7e7305b);
         
     
-            var circle_marker_78e6b26a0d99cf6af7b6761730d7ec34 = L.circleMarker(
+            var div_icon_d2ea9a56f72a592b9e364a0f5848ad47 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 12px; color: black;\"\u003e\u003cb\u003eChicago: 18867\u003c/b\u003e\u003c/div\u003e",
+  "iconSize": [150, 36],
+  "iconAnchor": [0, 0],
+  "className": "empty",
+});
+        
+    
+                marker_a54909623c9a54cc7f98b2b721f065c0.setIcon(div_icon_d2ea9a56f72a592b9e364a0f5848ad47);
+            
+    
+            var circle_marker_d390a2a0eefc3eb7a5f7e034a7461f15 = L.circleMarker(
                 [25.867768847278704, -80.26455802550282],
                 {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
-            ).addTo(map_e1b9864aac28a9ecb43fd073ce81c66e);
+            ).addTo(map_f1a84278f9edc0c26f00425fa7e7305b);
         
     
-        var popup_f984a19799b4f0fe899f12695dae7935 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_a9968950e24fb6a6bd37215504ffabbc = $(`<div id="html_a9968950e24fb6a6bd37215504ffabbc" style="width: 100.0%; height: 100.0%;">City: Miami<br>Severity 3–4 accidents: 16842</div>`)[0];
-                popup_f984a19799b4f0fe899f12695dae7935.setContent(html_a9968950e24fb6a6bd37215504ffabbc);
-            
-        
-
-        circle_marker_78e6b26a0d99cf6af7b6761730d7ec34.bindPopup(popup_f984a19799b4f0fe899f12695dae7935)
-        ;
-
-        
-    
-    
-            circle_marker_78e6b26a0d99cf6af7b6761730d7ec34.bindTooltip(
-                `<div>
-                     Miami – 16842 severe accidents
-                 </div>`,
+            var marker_4bc1c55270fe477a9990504b32ec8491 = L.marker(
+                [25.867768847278704, -80.26455802550282],
                 {
-  "sticky": true,
 }
-            );
+            ).addTo(map_f1a84278f9edc0c26f00425fa7e7305b);
         
     
-            var circle_marker_4056849a8845303a9d7323bf208539de = L.circleMarker(
+            var div_icon_b5b6dd2e1e1b19b24bd0a5ee845faa75 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 12px; color: black;\"\u003e\u003cb\u003eMiami: 16842\u003c/b\u003e\u003c/div\u003e",
+  "iconSize": [150, 36],
+  "iconAnchor": [0, 0],
+  "className": "empty",
+});
+        
+    
+                marker_4bc1c55270fe477a9990504b32ec8491.setIcon(div_icon_b5b6dd2e1e1b19b24bd0a5ee845faa75);
+            
+    
+            var circle_marker_07af99e82733154e42d9491c07a43077 = L.circleMarker(
                 [30.341511080690395, -81.6791131973499],
                 {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
-            ).addTo(map_e1b9864aac28a9ecb43fd073ce81c66e);
+            ).addTo(map_f1a84278f9edc0c26f00425fa7e7305b);
         
     
-        var popup_8abe5ed0195a011deaa80a293c5cd002 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_5733a37340f8b402c5e0348b90d1351d = $(`<div id="html_5733a37340f8b402c5e0348b90d1351d" style="width: 100.0%; height: 100.0%;">City: Jacksonville<br>Severity 3–4 accidents: 16065</div>`)[0];
-                popup_8abe5ed0195a011deaa80a293c5cd002.setContent(html_5733a37340f8b402c5e0348b90d1351d);
-            
-        
-
-        circle_marker_4056849a8845303a9d7323bf208539de.bindPopup(popup_8abe5ed0195a011deaa80a293c5cd002)
-        ;
-
-        
-    
-    
-            circle_marker_4056849a8845303a9d7323bf208539de.bindTooltip(
-                `<div>
-                     Jacksonville – 16065 severe accidents
-                 </div>`,
+            var marker_c909c773d77c2e44e0280d5a244dc303 = L.marker(
+                [30.341511080690395, -81.6791131973499],
                 {
-  "sticky": true,
 }
-            );
+            ).addTo(map_f1a84278f9edc0c26f00425fa7e7305b);
         
     
-            var circle_marker_38596b7e84c68980b3179b8136b8cb96 = L.circleMarker(
+            var div_icon_1943797b93003f9face4c1544fea8dc0 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 12px; color: black;\"\u003e\u003cb\u003eJacksonville: 16065\u003c/b\u003e\u003c/div\u003e",
+  "iconSize": [150, 36],
+  "iconAnchor": [0, 0],
+  "className": "empty",
+});
+        
+    
+                marker_c909c773d77c2e44e0280d5a244dc303.setIcon(div_icon_1943797b93003f9face4c1544fea8dc0);
+            
+    
+            var circle_marker_89b3f5c57c6e6735f292b020ca016508 = L.circleMarker(
                 [39.76691192061491, -104.57236378856065],
                 {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
-            ).addTo(map_e1b9864aac28a9ecb43fd073ce81c66e);
+            ).addTo(map_f1a84278f9edc0c26f00425fa7e7305b);
         
     
-        var popup_638e683375ea9bfbb57ca16669c2d51d = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_33aae06b43d873ba6cdb7cdfb42924ef = $(`<div id="html_33aae06b43d873ba6cdb7cdfb42924ef" style="width: 100.0%; height: 100.0%;">City: Denver<br>Severity 3–4 accidents: 12577</div>`)[0];
-                popup_638e683375ea9bfbb57ca16669c2d51d.setContent(html_33aae06b43d873ba6cdb7cdfb42924ef);
-            
-        
-
-        circle_marker_38596b7e84c68980b3179b8136b8cb96.bindPopup(popup_638e683375ea9bfbb57ca16669c2d51d)
-        ;
-
-        
-    
-    
-            circle_marker_38596b7e84c68980b3179b8136b8cb96.bindTooltip(
-                `<div>
-                     Denver – 12577 severe accidents
-                 </div>`,
+            var marker_5695c1706d636e05ae7df5c698d43299 = L.marker(
+                [39.76691192061491, -104.57236378856065],
                 {
-  "sticky": true,
 }
-            );
+            ).addTo(map_f1a84278f9edc0c26f00425fa7e7305b);
         
     
-            var circle_marker_6bf43058b8a76a8b35d61452188020bf = L.circleMarker(
+            var div_icon_730eee628eb1e1ef97b8b80aa204f039 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 12px; color: black;\"\u003e\u003cb\u003eDenver: 12577\u003c/b\u003e\u003c/div\u003e",
+  "iconSize": [150, 36],
+  "iconAnchor": [0, 0],
+  "className": "empty",
+});
+        
+    
+                marker_5695c1706d636e05ae7df5c698d43299.setIcon(div_icon_730eee628eb1e1ef97b8b80aa204f039);
+            
+    
+            var circle_marker_c02833a6b651b681e1a5af1a0d7a14de = L.circleMarker(
                 [44.9562118276895, -93.2915537124237],
                 {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
-            ).addTo(map_e1b9864aac28a9ecb43fd073ce81c66e);
+            ).addTo(map_f1a84278f9edc0c26f00425fa7e7305b);
         
     
-        var popup_24093d831d22d98e740788bc889992c6 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_2517edb9e12e1d27a25a10ed320aaf3b = $(`<div id="html_2517edb9e12e1d27a25a10ed320aaf3b" style="width: 100.0%; height: 100.0%;">City: Minneapolis<br>Severity 3–4 accidents: 12457</div>`)[0];
-                popup_24093d831d22d98e740788bc889992c6.setContent(html_2517edb9e12e1d27a25a10ed320aaf3b);
-            
-        
-
-        circle_marker_6bf43058b8a76a8b35d61452188020bf.bindPopup(popup_24093d831d22d98e740788bc889992c6)
-        ;
-
-        
-    
-    
-            circle_marker_6bf43058b8a76a8b35d61452188020bf.bindTooltip(
-                `<div>
-                     Minneapolis – 12457 severe accidents
-                 </div>`,
+            var marker_e839b43e0a4be3294c91e4d3c54ceee3 = L.marker(
+                [44.9562118276895, -93.2915537124237],
                 {
-  "sticky": true,
 }
-            );
+            ).addTo(map_f1a84278f9edc0c26f00425fa7e7305b);
         
     
-            var circle_marker_448638aab03538c3030b4a079cfe4ebf = L.circleMarker(
+            var div_icon_1f445ab510c014eb10f2d8e7a17a7a54 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 12px; color: black;\"\u003e\u003cb\u003eMinneapolis: 12457\u003c/b\u003e\u003c/div\u003e",
+  "iconSize": [150, 36],
+  "iconAnchor": [0, 0],
+  "className": "empty",
+});
+        
+    
+                marker_e839b43e0a4be3294c91e4d3c54ceee3.setIcon(div_icon_1f445ab510c014eb10f2d8e7a17a7a54);
+            
+    
+            var circle_marker_18b8f149aded8e169666c1899877cc62 = L.circleMarker(
                 [32.8043236595672, -117.14250234488809],
                 {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
-            ).addTo(map_e1b9864aac28a9ecb43fd073ce81c66e);
+            ).addTo(map_f1a84278f9edc0c26f00425fa7e7305b);
         
     
-        var popup_541d74e2d2e93925e3bf5021de12599c = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_e749e51b173b145e02f3e823732b042a = $(`<div id="html_e749e51b173b145e02f3e823732b042a" style="width: 100.0%; height: 100.0%;">City: San Diego<br>Severity 3–4 accidents: 12131</div>`)[0];
-                popup_541d74e2d2e93925e3bf5021de12599c.setContent(html_e749e51b173b145e02f3e823732b042a);
-            
-        
-
-        circle_marker_448638aab03538c3030b4a079cfe4ebf.bindPopup(popup_541d74e2d2e93925e3bf5021de12599c)
-        ;
-
-        
-    
-    
-            circle_marker_448638aab03538c3030b4a079cfe4ebf.bindTooltip(
-                `<div>
-                     San Diego – 12131 severe accidents
-                 </div>`,
+            var marker_1a318c34e3724d7d7fb2c09eb9e4a255 = L.marker(
+                [32.8043236595672, -117.14250234488809],
                 {
-  "sticky": true,
 }
-            );
+            ).addTo(map_f1a84278f9edc0c26f00425fa7e7305b);
         
     
-            tile_layer_ef0c03914fd2c542a327e87fc7d9d8e3.addTo(map_e1b9864aac28a9ecb43fd073ce81c66e);
+            var div_icon_d5e61c18af4b00f7b1a183c58c6c2d33 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 12px; color: black;\"\u003e\u003cb\u003eSan Diego: 12131\u003c/b\u003e\u003c/div\u003e",
+  "iconSize": [150, 36],
+  "iconAnchor": [0, 0],
+  "className": "empty",
+});
         
+    
+                marker_1a318c34e3724d7d7fb2c09eb9e4a255.setIcon(div_icon_d5e61c18af4b00f7b1a183c58c6c2d33);
+            
+    
+            tile_layer_9cfd040702f28b63b63c0a4b116e42a5.addTo(map_f1a84278f9edc0c26f00425fa7e7305b);
+        
+    
+                marker_4873301ca9853a2af107b7de7c1d43d9.setIcon(div_icon_2c94140f96dbdfd0af7bcd7e5ae50110);
+            
+    
+                marker_b0aa5e73b75a642fd1266090c230a2c6.setIcon(div_icon_89d0804a5f8e43b13ee393e5c52a9360);
+            
+    
+                marker_feeeb9e3e8d90f25017287a022df8ecd.setIcon(div_icon_d27768a90e667c7520f88e2d744cada3);
+            
+    
+                marker_34d1de82e77430a0035a5c904517cad3.setIcon(div_icon_9f534c48908afeaa361b58e3c0bb81ce);
+            
+    
+                marker_a54909623c9a54cc7f98b2b721f065c0.setIcon(div_icon_d2ea9a56f72a592b9e364a0f5848ad47);
+            
+    
+                marker_4bc1c55270fe477a9990504b32ec8491.setIcon(div_icon_b5b6dd2e1e1b19b24bd0a5ee845faa75);
+            
+    
+                marker_c909c773d77c2e44e0280d5a244dc303.setIcon(div_icon_1943797b93003f9face4c1544fea8dc0);
+            
+    
+                marker_5695c1706d636e05ae7df5c698d43299.setIcon(div_icon_730eee628eb1e1ef97b8b80aa204f039);
+            
+    
+                marker_e839b43e0a4be3294c91e4d3c54ceee3.setIcon(div_icon_1f445ab510c014eb10f2d8e7a17a7a54);
+            
+    
+                marker_1a318c34e3724d7d7fb2c09eb9e4a255.setIcon(div_icon_d5e61c18af4b00f7b1a183c58c6c2d33);
+            
 </script>
 </html>
