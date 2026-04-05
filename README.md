@@ -1,7 +1,7 @@
 # Factors Behind Severe Road Accidents in the U.S
-Team name: Syntax Terror
+##### Team name: Syntax Terror
 
-Members:
+##### Members:
 - Emmi Halonen
 - Emma Lehtoranta
 - Jarmo Palonen
@@ -61,11 +61,12 @@ Go to System Properties -> Advanced -> Environment variables and set:
 - Download link: http://mongodb.com/try/download/community
 
 #### Dataset
-- Download the U.S. Accidents (March 23) dataset
+- Download the U.S. Accidents (March 23) dataset from Kaggle
 - Download link: https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents
-  - Place the US_Accidents_March23.csv file inside the main folder.
+
 
 #### How to Run the Project
 - Step 1: Activate your Conda Environment
 - Step 2: Run git clone https://github.com/JarmoPalonen/U.S-Accidents or just download the files
-- Step 3: Open the folder in your IDE and run the Full_combined_code.ipynb from the main folder
+- Step 3: Place the US_Accidents_March23.csv file inside the main folder.
+- Step 4: Open the folder in your IDE and run the Full_combined_code.ipynb from the main folder
