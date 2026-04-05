@@ -41,9 +41,10 @@ Members:
    - pymongo
    - matplotlib
    - seaborn
+   - folium 
 
 ###### Use for example Conda Environment and run
-    pip install pyspark pandas pymongo matplotlib seaborn
+    pip install pyspark pandas pymongo matplotlib seaborn folium
 
 
 
@@ -67,4 +68,4 @@ Go to System Properties -> Advanced -> Environment variables and set:
 #### How to Run the Project
 - Step 1: Activate your Conda Environment
 - Step 2: Run git clone https://github.com/JarmoPalonen/U.S-Accidents or just download the files
-- Step 3: Open the folder in your IDE and run the Final_Code.ipynb from the main folder
+- Step 3: Open the folder in your IDE and run the Full_combined_code.ipynb from the main folder
